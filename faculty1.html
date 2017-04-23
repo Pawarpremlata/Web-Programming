@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html>
+<head lang="en-US">
+<style type="text/css">
+
+header{
+    background-color: black;
+    text-align: center;
+}
+
+footer {
+    color: black;
+    background-color:#aaa;
+    text-align: right;
+}
+#submit,#reset{
+         
+         background-color:#aaa;
+  }
+  
+
+body{font-family:georgia;font-size:22px;}
+
+
+</style>
+<title></title>
+</head>
+<body>
+<form>
+<div style="width: 100px; height: 250px; position: relative;">
+   <img id="image1" style="position: relative;" src="Don Bosco.jpg" alt="DON"  width="1350" hieght="10" />
+   <img id="image2" style="position: absolute; top: 40px; left: 20px;" src="Logo.png" alt="Don Bosco" width="200" hieght="50"/>
+
+</div>
+
+
+<header>
+<h1 style="text-align:center;color:white">FACULTY INFORMATION</h1>
+</header>
+
+  
+  <fieldset>
+  <legend><h3>PERSONAL INFORMATION:</h3></legend>
+  <table border=0 align="center" >
+ <tr>
+  <td>Title</td>
+  <td>:</td>
+  <td>
+  <select name="Title" autofocus>
+  <option value="missus">
+  Mrs.
+  </option>
+  <option value="mister">
+  Mr.
+  </option>
+  <option value="miss">
+  Ms.
+  </option>
+  </select>
+  </td>
+ </tr>
+ <tr>
+  <td>Surname</td>
+  <td>:</td>
+  <td><input type="text" name="Sname" id="sname" placeholder="abc"></td>
+</tr> 
+<tr>
+  <td>First name</td>
+  <td>:</td>
+  <td><input type="text" name="Fname" id="fname" placeholder="abc"></td>
+</tr> 
+<tr>
+  <td>Middle name</td>
+  <td>:</td>
+  <td><input type="text" name="Mname" id="mname" placeholder="abc"></td>
+</tr> 
+<tr>
+  <td>Gender</td>
+  <td>:</td>
+  <td><input type="radio" name="gender" value="m" checked> Male 
+  <input type="radio" name="gender" value="f" > Female
+  </td>
+</tr> 
+  <td>E-mail</td>
+  <td>:</td>
+  <td><input type="email" name="Email" id="email"></td>
+</tr>
+<tr> 
+  <td>Contact Number</td>
+  <td>:</td>
+  <td><input type="tel" name="Telephone" id="telephone"></td>
+</tr>
+<tr>
+  <td>Designation</td>
+  <td>:</td>
+  <td> 
+  <select name="DESIGNATION">
+  <option value="Select"> SELECT</option>
+  <option value="TEACHING ASSISTANT"> TEACHING ASSISTANT </option>
+  <option value="ASSISTANT PROFFESOR"> ASSISTANT PROFFESOR </option>
+  <option value="ASSOCIATE PROFESSOR"> ASSOCIATE PROFFESOR</option>
+  <option value="PROFFESOR"> PROFESSOR </option>
+  </select>
+  </td>
+</tr>
+<tr>
+  <td>Departement</td>
+  <td>:</td>
+  <td>
+  <select name="DEPARTMENT">
+  <option value="Select">SELECT</option>
+  <option value="IT">IT</option>
+  <option value="COMPS">COMPS</option>
+  <option value="EXTC">EXTC</option>
+  <option value="MECH">MECH</option>
+  </select>
+  </td>
+</tr>
+<tr>
+  <td>Date Of Joining</td>
+  <td>:</td>
+  <td>
+  <input type="date" name="D.O.J" id="doj">
+  </td>
+</tr>
+<tr> 
+  <td>Date Of Birth</td>
+  <td>:</td>
+  <td>
+  <input type="date" name="D.O.B" id="dob">
+  </td>
+</tr>
+  </table>
+  </fieldset>
+
+
+  <fieldset>
+  <legend><h3>QUALIFICATION</h3></legend>
+  <table border=0 align="center" >
+<tr>
+  <td>Specialization</td>
+  <td>:</td>
+  <td>
+  <input type="text" name="Specialization" id="specialization">
+  </td>
+</tr>
+<tr>
+  <td>Year of complition</td>
+  <td>:</td>
+ <td>
+  <input type="number" name="Year of complition" id="yoc">
+  </td>
+</tr>
+<tr>
+  <td>Degree</td>
+  <td>:</td>
+  <td>
+  <input type="text" name="Degree" id="degree">
+   <br>
+  </td>
+</tr>
+  
+<tr>
+  <td>University</td>
+  <td>:</td>
+  <td>
+  <input type="text" name="University" id="university">
+  </td>
+</tr>
+  </table>
+  </fieldset>
+
+
+  <fieldset>
+  <legend><h3>INDUSTRY EXPERIENCE</h3></legend>
+  <table border=0 align="center" >
+<tr>
+  <td>Company name</td>
+  <td>:</td>
+  <td>
+  <input type="text" name="Company name" id="cn">
+  </td>
+</tr>
+<tr>  
+  <td>Year</td>
+  <td>:</td>
+  <td>
+  <input type="number" name="year" id="year">
+  </td>
+</tr>
+<tr>
+  <td>Date From</td>
+  <td>:</td>
+  <td>
+  <input type="date" name="Date from" id="df">
+  </td>
+</tr>
+<tr>  
+  <td>Date To</td>
+  <td>:</td>
+  <td>
+  <input type="date" name="DATE TO" id="dt">
+  </td>
+</tr>
+</table>
+  </fieldset>
+
+
+  <fieldset>
+  <legend><h3>PROJECTS UNDERTAKEN</h3></legend>
+  <table border=0 align="center" > 
+<tr>
+  <td>Project Title</td>
+  <td>:</td>
+  <td>
+  <input type="text" name="Project Title" id="pt">
+  </td>
+</tr>
+<tr>
+  <td>Area/Specialization</td>
+  <td>:</td>
+  <td>
+  <input type="text" name="Area/Specialization" id="as">
+  </td>
+</tr>
+</table>
+  </fieldset>
+  
+
+  <fieldset>
+  <legend><h3>PAPERS PUBLISHED</h3></legend>
+  <table border=0 align="center" >
+  <tr>
+  <td>
+  &emsp;Title Of Paper:&emsp;&emsp;&emsp;Journal/Conference:&emsp;&nbsp;&emsp;&emsp;Year:
+  <br>
+  1.<input type="text" name="Title Of Paper" id="top">&emsp;&emsp;&emsp;&emsp;
+    <input type="text" name="Journal/Conference" id="jc">&emsp;&nbsp;&emsp;&emsp;
+    <input type="number" name="Year">
+    <br>
+  2.<input type="text" name="Title Of Paper">&emsp;&emsp;&emsp;&emsp;
+    <input type="text" name="Journal/Conference">&emsp;&nbsp;&emsp;&emsp;
+    <input type="number" name="Year">
+    <br>
+  3.<input type="text" name="Title Of Paper">&emsp;&emsp;&emsp;&emsp;
+    <input type="text" name="Journal/Conference">&emsp;&nbsp;&emsp;&emsp;
+    <input type="number" name="Year">
+    <br>
+  4.<input type="text" name="Title Of Paper">&emsp;&emsp;&emsp;&emsp;
+    <input type="text" name="Journal/Conference">&emsp;&nbsp;&emsp;&emsp;
+    <input type="number" name="Year">
+  </td>
+</tr>
+  </table>
+  </fieldset> 
+  <br><br>
+ 
+ <table border=0 align="center" > 
+ <tr>
+  <td>
+  <input type="submit" value="SUBMIT" id="submit" >&emsp;&emsp;&emsp;&emsp;<input type="submit" value="RESET" id="reset">
+  </td>
+  </tr>
+  <table border=0 align="center" > 
+ <tr>
+  <td>
+   <footer>
+    <h5>DESIGNED AND DEVELOPED BY Premlata Pawar</h5>
+  </footer>
+ </td>
+</tr>
+</form>
+</body>
+</html>
