@@ -7,4 +7,4 @@ faculty3.html(html with Javascript),
 faculty4.html(html with Jquery),
 
 faculty.php:
-To fill faculty.php form Run faculty.sql this will create the database in phpmyadmin
+To fill faculty.php form import faculty.sql this will create the database in phpmyadmin
